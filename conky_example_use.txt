@@ -1,0 +1,1 @@
+conky -d -a top_right &
