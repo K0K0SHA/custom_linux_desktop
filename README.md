@@ -3,22 +3,28 @@
 
 ![conkyv1](https://user-images.githubusercontent.com/92905002/180728590-d1e7c4d8-1def-41a6-8589-752cdda7b294.png)
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-Automatic installation+configuration of K0K0$H@'s DARK_TIGER FOSS custom desktop using Conky. Designed for Linux Mint. Slight resource usage, for a much more informative desktop. Features CPU, Storage and RAM usage, hostname, process and network information, as well as a temperature monitor. Color coded warnings show red/orange/green for when your resources are being tapped, or your computer is getting hot.
+Automatic installation+configuration of K0K0$H@'s DARK_TIGER FOSS custom desktop using Conky. Designed for Linux Mint. Slight resource usage, for a much more informative desktop. Features CPU, Storage and RAM usage, hostname, process and network information, as well as a temperature monitor. Color coded warnings show red/orange/green for when your resources are being tapped, or your computer is getting hot. 
+Please note that this repo contains the WIDGET ONLY, and DOES NOT CUSTOMIZE ANY OTHER PART OF YOUR SYSTEM SUCH AS YOUR WALLPAPER, THE OS FONT, THE TASKBAR, ETC. 
 
 # BETA WARNING
-This software is in beta, and it honestly fucking sucks. It only offers one theme at the moment (eg 1 config file). The configure scripts do not add conky to startup, nor do they even ensure conky is installed. 
+This software is in beta, and it honestly fucking sucks. It only offers one theme at the moment (eg 1 config file). The configure scripts do not add conky to startup, nor do they even ensure conky is installed. It is distro-specifc to Mint at the moment.
 
 # WARNINGS BEFORE YOU RUN
 If your conky configuration file is not located in /etc/conky/conky.config, then this script will not work on your system. 
 This program was made by a Linux Mint user, for a Linux Mint user. It will probably run on Kali and Ubuntu. Maybe in the future I will make this desktop font cross-distro compatible.
 
 # installation
+Please note that you don't really even need to install anything to get this custom desktop widget. 
+The only thing you really have to do is take some .config file from this repo, and paste it over your current conky.conf file.
+
 If you want, you may install conky first (note, install process is different by distribution):
 
 sudo apt-get install conky
 
 git clone https://github.com/K0K0SHA/custom_linux_desktop/
+
 chmod +x ./conky_config.sh
+
 sudo ./conky_config.sh    # BETA does not currently add to startup
 
 # dependencies:
@@ -48,4 +54,4 @@ ideas for installation tweaks:
 3. Lightweight where it taxes less resources, for weaker systems
 4. Allow a startup feature
 5. Security-focused setup, offensive or defensive
-
+6. Font customization
