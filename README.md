@@ -55,3 +55,4 @@ ideas for installation tweaks:
 4. Allow a startup feature
 5. Security-focused setup, offensive or defensive
 6. Font customization
+7. Get network interface name
