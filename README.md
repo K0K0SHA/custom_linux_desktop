@@ -34,10 +34,6 @@ chmod +x ./conky_config.sh
 
 sudo ./conky_config.sh    # BETA does not currently add to startup
 
-# dependencies:
-conky
-which
-
 # custom config files
 In order to customize Conky, simply copy over its config file. On Mint, this file is /etc/conky/conky.conf
 Infinite variations of my widget are possible, if this file is modified. I plan to provide several more 
