@@ -3,21 +3,24 @@
 
 ![conkyv1](https://user-images.githubusercontent.com/92905002/180728590-d1e7c4d8-1def-41a6-8589-752cdda7b294.png)
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-Automatic installation+configuration of K0K0$H@'s DARK_TIGER FOSS custom desktop using Conky. Designed for Linux Mint. Slight resource usage, for a much more informative desktop. Features CPU, Storage and RAM usage, hostname, process and network information, as well as a temperature monitor. Color coded warnings show red/orange/green for when your resources are being tapped, or your computer is getting hot. 
-Please note that this repo contains the WIDGET ONLY, and DOES NOT CUSTOMIZE ANY OTHER PART OF YOUR SYSTEM SUCH AS YOUR WALLPAPER, THE OS FONT, THE TASKBAR, ETC. 
+Automatic installation+configuration of K0K0$H@'s FOSS custom desktop using Conky. Designed for Linux Mint. 
+
+Not your average desktop ricer!
+Slight resource usage, for a much more informative desktop. 
+Features CPU, Storage and RAM usage, hostname, process and network information, as well as a temperature monitor. Color coded warnings show red/orange/green for when your resources are being tapped, or your computer is getting hot. 
 
 # BETA WARNING
-This software is in beta, and it honestly fucking sucks. It only offers one theme at the moment (eg 1 config file). The configure scripts do not add conky to startup, nor do they even ensure conky is installed. It is distro-specifc to Mint at the moment.
+This software is in beta. It only offers 2 themes at the moment (2 config files). The configure scripts do not add conky to startup, nor do they even ensure conky is installed. It is distro-specifc to Mint at the moment. Testing must be done on a VM with Ubuntu running on GNOME, or wherever else. Before reaching Alpha phase, this software must be able to perform multiple custom Linux desktop functions:
 
 # WARNINGS BEFORE YOU RUN
-If your conky configuration file is not located in /etc/conky/conky.config, then this script will not work on your system. 
-This program was made by a Linux Mint user, for a Linux Mint user. It will probably run on Kali and Ubuntu. Maybe in the future I will make this desktop font cross-distro compatible.
+(v0.5)If your conky configuration file is not located in /etc/conky/conky.config, then this script will not work on your system. 
+This program was made by a Linux Mint user, for a Linux Mint user. It will probably run on Kali and Ubuntu. Maybe in the future I will make this desktop font cross-distro compatible. NO, THIS IS NOT FOR WINDOWS!!
 
 # installation
-Please note that you don't really even need to install anything to get this custom desktop widget. 
+Install is probably optional because Linux Mint does have Conky preinstalled, and so does Ubuntu. For me, at least.  
 The only thing you really have to do is take some .config file from this repo, and paste it over your current conky.conf file.
 
-If you want, you may install conky first (note, install process is different by distribution):
+If needed, you may install Conky first (note, install process is different by distribution):
 
 sudo apt-get install conky
 
@@ -35,9 +38,10 @@ which
 In order to customize Conky, simply copy over its config file. On Mint, this file is /etc/conky/conky.conf
 Infinite variations of my widget are possible, if this file is modified. I plan to provide several more 
 readily-made examples. Including every major color. The meat of this program is the custom config files.
+On some distros, Conky config syntax is different. This program can't account for that yet.
 
 # version information
-Current version: 0.5
+Current version: 0.6
 Dark theme only
 Transparency ON default
 Tested on Linux Mint Cinnamon only
@@ -46,7 +50,7 @@ Tested on Linux Mint Cinnamon only
 In the future, will allow color themes, installation tweaks, and maybe some cross-distro compatibility.
 color themes can be implemented with these methods:
 1.separate config files for each color
-2.config file modification
+2.config file modification through CTRL-H (find-replace)
 
 ideas for installation tweaks:
 1. Privacy-focused install where the networking section shows more limited information
