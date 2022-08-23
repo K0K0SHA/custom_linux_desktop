@@ -2,17 +2,21 @@
 ![LinuxMint_conky](https://user-images.githubusercontent.com/92905002/180729486-7de75293-16da-42f0-9621-8d48ce0909a8.png)
 
 ![conkyv1](https://user-images.githubusercontent.com/92905002/180728590-d1e7c4d8-1def-41a6-8589-752cdda7b294.png)
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-Automatic installation+configuration of K0K0$H@'s FOSS custom desktop using Conky. Designed for Linux Mint. 
+config shown: Dark Tiger v0.5 Transparent
 
-Not your average desktop ricer!
-Slight resource usage, for a much more informative desktop. 
-Features CPU, Storage and RAM usage, hostname, process and network information, as well as a temperature monitor. Color coded warnings show red/orange/green for when your resources are being tapped, or your computer is getting hot. 
+Try K0K0$HA's custom hacker desktop today! Ultralight resource usage, for a much more informative desktop. 
+# features
+CPU, Storage and RAM usage, hostname, process and network information, and a temperature monitor. Color coded warnings show red/orange/green for when your resources are being tapped, or your computer is getting hot. 
+Repo features automatic installation & configuration of K0K0$H@'s FOSS custom desktop using Conky. 
+[v0.6]Designed for Linux Mint. 
+
 
 # BETA WARNING
-This software is in beta. It only offers 2 themes at the moment (2 config files). The configure scripts do not add conky to startup, nor do they even ensure conky is installed. It is distro-specifc to Mint at the moment. Testing must be done on a VM with Ubuntu running on GNOME, or wherever else. Before reaching Alpha phase, this software must be able to perform multiple custom Linux desktop functions:
+This software is in beta. It only offers 2 themes at the moment (2 config files). The configure scripts do not add conky to startup, nor do they even ensure conky is installed. It is distro-specifc to Mint at the moment. Testing must be done on a VM with Ubuntu running on GNOME, or wherever else. Before reaching Alpha phase, this repo must be able to perform multiple custom Linux desktop functions:
+1. Set a custom (or custom-defined) wallpaper
+2. Set a custom widget (Conky) if desired
 
-# WARNINGS BEFORE YOU RUN
+# WARNINGS BEFORE RUNNING
 (v0.5)If your conky configuration file is not located in /etc/conky/conky.config, then this script will not work on your system. 
 This program was made by a Linux Mint user, for a Linux Mint user. It will probably run on Kali and Ubuntu. Maybe in the future I will make this desktop font cross-distro compatible. NO, THIS IS NOT FOR WINDOWS!!
 
