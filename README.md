@@ -4,7 +4,7 @@
 ![conkyv1](https://user-images.githubusercontent.com/92905002/180728590-d1e7c4d8-1def-41a6-8589-752cdda7b294.png)
 config shown: Dark Tiger v0.5 Transparent
 
-Try K0K0$HA's custom hacker desktop today! Ultralight resource usage, for a much more informative desktop. 
+Check out K0K0$HA's custom hacker desktop! Ultralight resource usage, for a much more informative desktop. 
 # features
 CPU, Storage and RAM usage, hostname, process and network information, and a temperature monitor. Color coded warnings show red/orange/green for when your resources are being tapped, or your computer is getting hot. 
 Repo features automatic installation & configuration of K0K0$H@'s FOSS custom desktop using Conky. 
