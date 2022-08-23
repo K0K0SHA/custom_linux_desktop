@@ -1,0 +1,48 @@
+use guidelines (just paste anything in this directory over your conky config file):
+--------------------------------------------------------------------------------------
+cd ./legacyconfigs/
+cp ./your_preferred.config /etc/conky/conky.conf
+
+Please note that above code is tested on Mint. 
+Ubuntu and Kali are probably going to work, but not Mint or RHEL.
+
+You have to choose which configuration you'd prefer.
+Also, your conky configuration might not be in conky/conky.conf
+
+What are Legacy Configurations?
+---------------------------------------------------------------------------------------
+Legacy Configurations are generationally evolving hard-coded Conky themes.
+
+The idea is that Conky kind of sucks out of the box, even if it comes pre-installed. 
+Luckily, it's easy to customize Conky if you know a little bit of Lua.
+If you don't want to edit the config file line by line, you may paste one of these. 
+
+Legacy Themes include colors, fonts, and hard-coded transparency.
+More importantly, legacy configurations feature various information displays. 
+Each theme was designed by me. They feature artistic elements for style.
+
+conky.py in proj. root should be able to handle basic colors and user-made themes. 
+
+When I started this project, I didn't integrate user-designed themes right away.
+Since I was focused mainly on functionality, I just hard-coded a color theme.
+I liked this theme, and I figured that I was the only one who was using it. 
+The first priority with this project was getting an informative display.
+The second was figuring out one custom theme that I liked.
+The third thing I did was making the background transparent, and so on.
+
+Over the course of time, I improved the custom desktop project. Bugfixes, patches, etc.
+With each revision of Conky configuration, I changed the coloring of Conky a little. 
+Once the display was informative enough, I wanted to give a few essential controls. 
+There is an infinity of infinities with Conky options.
+I decided to make a few set ones, like color theme, transparency, and network.
+
+
+Inserting my first toggle
+----------------------------------------------------------------------------------------
+Once I had made my background transparent, the text was very hard to read.
+I needed a special wallpaper in order to read the widget with this configuration.
+
+TODO
+color toggle
+transparency  toggle
+network interface card toggle via NIC in miscX.py
