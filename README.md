@@ -64,5 +64,5 @@ ideas for installation tweaks:
 7. Get network interface name instead of hardcoding
 
 # KNOWN BUGS
-Due to lua being slower than the Linux OS, the color-coded information feature does not work properly in real time. It will be scrapped in version 0.71+. 
-#
+1.Due to lua being slower than the Linux OS, the color-coded information feature does not work properly in real time. It will be scrapped in version 0.71+. 
+2.Conky does not play nicely with multiple displays
