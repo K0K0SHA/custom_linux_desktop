@@ -5,19 +5,21 @@
 config shown: Dark Tiger v0.5 Transparent
 
 Check out K0K0$HA's custom hacker desktop! Ultralight resource usage, for a much more informative desktop. 
+
 # features
 CPU, Storage and RAM usage, hostname, process and network information, and a temperature monitor. Color coded warnings show red/orange/green for when your resources are being tapped, or your computer is getting hot. 
 Repo features automatic installation & configuration of K0K0$H@'s FOSS custom desktop using Conky. 
-[v0.6]Designed for Linux Mint. 
+[v0.7]Designed for Linux Mint Cinnamon. 
 
 
 # BETA WARNING
-This software is in beta. It only offers 2 themes at the moment (2 config files). The configure scripts do not add conky to startup, nor do they even ensure conky is installed. It is distro-specifc to Mint at the moment. Testing must be done on a VM with Ubuntu running on GNOME, or wherever else. Before reaching Alpha phase, this repo must be able to perform multiple custom Linux desktop functions:
+This software is in beta. It does not offer a full theme selection at the moment. The configure scripts do not add conky to startup, nor do they even ensure conky is installed. It is distro-specifc to Mint at the moment. Testing must be done on a VM with Ubuntu running on GNOME, or other distros. Before reaching Alpha phase, this repo must be able to perform multiple custom Linux desktop functions:
 1. Set a custom (or custom-defined) wallpaper
 2. Set a custom widget (Conky) if desired
 
-# WARNINGS BEFORE RUNNING
-(v0.5)If your conky configuration file is not located in /etc/conky/conky.config, then this script will not work on your system. 
+# READ BEFORE RUNNING
+(v0.5)If your conky configuration file is not located in /etc/conky/conky.config, then this script will not work on your system. You may specify a configuration file for conky by using the following flag: 
+conky -c ~/my_conky.conf
 This program was made by a Linux Mint user, for a Linux Mint user. It will probably run on Kali and Ubuntu. Maybe in the future I will make this desktop font cross-distro compatible. NO, THIS IS NOT FOR WINDOWS!!
 
 # installation
@@ -41,14 +43,14 @@ readily-made examples. Including every major color. The meat of this program is 
 On some distros, Conky config syntax is different. This program can't account for that yet.
 
 # version information
-Current version: 0.6
+Current version: 0.7
 Dark theme only
 Transparency ON default
 Tested on Linux Mint Cinnamon only
 
 # future events planned
-In the future, will allow color themes, installation tweaks, and maybe some cross-distro compatibility.
-color themes can be implemented with these methods:
+In the future, K0K0$H@'s customized conky will allow color themes, installation tweaks, and more informativeness.
+color themes can be implemented with one of these methods, and I recommend the former:
 1.separate config files for each color
 2.config file modification through CTRL-H (find-replace)
 
@@ -58,5 +60,9 @@ ideas for installation tweaks:
 3. Lightweight where it taxes less resources, for weaker systems
 4. Allow a startup feature
 5. Security-focused setup, offensive or defensive
-6. Font customization
-7. Get network interface name
+6. Font customization, interactively or programatically
+7. Get network interface name instead of hardcoding
+
+# KNOWN BUGS
+Due to lua being slower than the Linux OS, the color-coded information feature does not work properly in real time. It will be scrapped in version 0.71+. 
+#
